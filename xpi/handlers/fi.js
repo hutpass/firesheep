@@ -4,7 +4,7 @@ register({
   name: 'Founder Institute',
   url: 'http://fi.co/',
   domains: [ 'fi.co' ],
-  sessionCookieNames: [ 'code' ],
+  sessionCookieNames: [ '_ffi3_session' ],
 
   identifyUser: function() {
     var resp = this.httpGet(this.siteUrl);
